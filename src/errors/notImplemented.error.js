@@ -1,4 +1,4 @@
-const BaseError= require('./base.error');
+const BaseError= require('./base.error.js');
 const {StatusCodes}=require('http-status-code');
 
 class NotImplemented extends BaseError{
