@@ -27,8 +27,6 @@ app.get('/ping',(req,res)=>{
 app.use(errorHandler);
 
 app.listen(PORT,()=>{
-    console.log(`Server started at PORT :${PORT}`);
-
-   
+    console.log(`Server started at PORT :${PORT}`);   
 
 });
